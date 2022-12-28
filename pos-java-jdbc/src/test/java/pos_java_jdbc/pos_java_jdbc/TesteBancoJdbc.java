@@ -116,6 +116,7 @@ public class TesteBancoJdbc {
 	@Test
 	public void testeDeleteUserFone() {
 		UserPosDAO dao = new UserPosDAO();
+		System.out.println("Test commit");
 		dao.deleteFonesPosUser(1L);
 		
 	}
